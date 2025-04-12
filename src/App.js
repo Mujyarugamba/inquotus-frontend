@@ -16,7 +16,7 @@ function App() {
   const handleSubmit = async e => {
     e.preventDefault();
     try {
-      const res = await fetch('https://inquotus-auth-backend.onrender.com/api/register', {
+      const res = await fetch('https://inquotus-backend-auth.onrender.com/api/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
